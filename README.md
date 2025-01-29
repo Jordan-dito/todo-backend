@@ -45,6 +45,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+ todo-backend
+
+## Configuración de la Base de Datos
+
+A continuación se muestra la configuración de la base de datos que se utiliza en este proyecto:
+DB_HOST=localhost # Docker mapea el puerto 3306 en localhost
+DB_PORT=3306 # Puerto que está mapeando el contenedor
+DB_USER=root # Usuario por defecto de MySQL
+DB_PASSWORD=root # Contraseña configurada al iniciar el contenedor
+DB_NAME=todo_app # Nombre de la base de datos
+JWT_SECRET=mysecretkey
+
 ## Run tests
 
 ```bash
